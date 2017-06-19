@@ -1,0 +1,24 @@
+{
+  "name": "openshift-logos-icon",
+  "version": "1.0.0",
+  "description": "OpenShift Logos Icon Font ===========================",
+  "style": "style.css",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openshift/openshift-logos-icon.git"
+  },
+  "authors": "Red Hat",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/openshift/openshift-logos-icon/issues"
+  },
+  "homepage": "https://github.com/openshift/openshift-logos-icon#readme"
+}

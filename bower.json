@@ -1,0 +1,22 @@
+{
+  "name": "openshift-logos-icon",
+  "version": "1.0.0",
+  "description": "OpenShift Logos Icon Font ===========================",
+  "main": "less/openshift-logos-icon.less",
+  "authors": [
+    "Red Hat"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/openshift/openshift-logos-icon",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "*.json",
+    "demo-files",
+    "demo.html",
+    "gruntfile.js"
+  ]
+}
