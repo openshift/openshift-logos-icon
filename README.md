@@ -55,3 +55,40 @@ Builds are done via Grunt.
 ```
 grunt
 ```
+
+### Releasing
+
+To release a new version version, edit `bower.json` and `package.json` accordingly.
+
+Update the version listed in `bower.json` by editing the file and changing the line:
+
+```
+"version": "<new_version>"
+```
+
+Update the version listed in `package.json` by editing the file and changing the line:
+
+```
+"version": "<new_version>"
+```
+
+Commit the version bump:
+
+```
+git commit -a -m "Version bump to <new_version>"
+```
+
+Tag and push upstream (assuming you have commit access):
+
+```
+git tag <new_version>
+git push && git push --tags
+```
+
+The Bower package manager determines available versions and installs based upon git tags, so the new version will now be automatically available via Bower.
+
+To publish a new version to npm, execute:
+
+```
+npm publish
+```
