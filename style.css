@@ -18,6 +18,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.icon-infinispan:before {
+  content: "\f159";
+}
 .icon-mediawiki:before {
   content: "\f158";
 }
