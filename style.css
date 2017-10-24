@@ -1,10 +1,13 @@
-/* OpenShift Logos Icon Font */
 @font-face {
   font-family: 'openshift-logos-icon';
-  src: url('fonts/openshift-logos-icon.ttf') format('truetype'), url('fonts/openshift-logos-icon.woff') format('woff'), url('fonts/openshift-logos-icon.svg#openshift-logos-icon') format('svg');
+  src:
+    url('fonts/openshift-logos-icon.ttf?q7yq8e') format('truetype'),
+    url('fonts/openshift-logos-icon.woff?q7yq8e') format('woff'),
+    url('fonts/openshift-logos-icon.svg?q7yq8e#openshift-logos-icon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
+
 .font-icon {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'openshift-logos-icon' !important;
@@ -14,10 +17,12 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .icon-infinispan:before {
   content: "\f159";
 }
@@ -51,7 +56,8 @@
 .icon-git:before {
   content: "\f102";
 }
-.icon-openjdk:before {
+.icon-openjdk:before,
+.icon-rh-openjdk {
   content: "\f103";
 }
 .icon-rails:before {
@@ -195,4 +201,34 @@
 }
 .icon-apache:before {
   content: "\f138";
+}
+.icon-3scale:before {
+  content: "\e900";
+}
+.icon-amq:before {
+  content: "\e901";
+}
+.icon-datagrid:before {
+  content: "\e902";
+}
+.icon-datavirt:before {
+  content: "\e903";
+}
+.icon-decisionserver:before {
+  content: "\e904";
+}
+.icon-eap:before {
+  content: "\e905";
+}
+.icon-processserver:before {
+  content: "\e906";
+}
+.icon-rh-integration:before {
+  content: "\e907";
+}
+.icon-rh-tomcat:before {
+  content: "\e908";
+}
+.icon-sso:before {
+  content: "\e909";
 }
