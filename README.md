@@ -31,6 +31,8 @@ To add new icons to the set, click on the right-hand kabob menu and select “Im
 
 ![image](https://cloud.githubusercontent.com/assets/12733153/15153017/9411521e-16a5-11e6-9a70-e37e73c16734.png)
 
+Move the newly added icon(s) to the end of the list (by default, icomoon adds them to the beginning).  This prevents the re-indexing of all icons, thus reducing the diff in selection.json.
+
 Ensure the new icons you added are selected.
 
 Generate the font files by clicking on the “Generate Font” button at the bottom of the page:
