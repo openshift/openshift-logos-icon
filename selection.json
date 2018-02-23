@@ -2031,7 +2031,7 @@
         "license": "Apache 2.0",
         "licenseURL": "https://www.apache.org/licenses/LICENSE-2.0",
         "majorVersion": 1,
-        "minorVersion": 3
+        "minorVersion": 4
       },
       "showGlyphs": true,
       "metrics": {
