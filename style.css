@@ -236,3 +236,9 @@
 .icon-xamarin:before {
   content: "\e90c";
 }
+.icon-kubevirt:before {
+  content: "\e90d";
+}
+.icon-mssql:before {
+  content: "\e90e";
+}
