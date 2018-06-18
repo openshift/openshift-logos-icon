@@ -266,3 +266,6 @@
 .icon-windows:before {
   content: "\e916";
 }
+.icon-react:before {
+  content: "\e917";
+}
