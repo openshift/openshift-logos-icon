@@ -18,6 +18,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.icon-pwa:before {
+  content: "\e917";
+}
 .icon-infinispan:before {
   content: "\f159";
 }
