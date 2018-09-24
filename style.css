@@ -266,3 +266,6 @@
 .icon-windows:before {
   content: "\e916";
 }
+.icon-jaeger:before {
+  content: "\e917";
+}
