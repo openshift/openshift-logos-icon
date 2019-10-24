@@ -7,6 +7,8 @@ To view a list of all the glyphs in the font along with their codes/ligatures vi
 
 ## Contributing
 
+*Important*:  Updates to this repository are only required if you are targeting OpenShift console 3.6 or earlier.  Starting in OpenShift 3.7, icons are mapped to and replaced with images (SVG, PNG, etc.), so there is no need to update this repo to add a new icon.  For 3.7 - 3.11, see https://github.com/openshift/origin-web-console/pull/3146 for an example of how to add a new icon as an image.  For 4.1+, see https://github.com/openshift/console/pull/2638.
+
 ### Getting Started
 
 Development dependencies are managed using NPM; therefore, [NPM](https://docs.npmjs.com/getting-started/installing-node) is required.
